@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farah Hana | Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <h1>Farah Hana binti Badrul Hisam</h1>
+  <p>Contact</p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="responsibilities.html">Responsibilities</a>
+    <a href="projects.html">Projects</a>
+    <a href="achievements.html">Achievements</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h2>Get in Touch</h2>
+    <p>If you have questions, collaboration ideas, or wish to access restricted drama archives, please fill out the form below.</p>
+    <form id="contactForm">
+      <label for="name">Name</label>
+      <input type="text" id="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="6" required></textarea>
+
+      <button type="submit">Send Message</button>
+      <p id="status"></p>
+    </form>
+  </section>
+</main>
+
+<footer>
+  &copy; 2030 Auralis Library — Farah Hana binti Badrul Hisam
+</footer>
+
+<div id="chatbot">
+  <button id="chat-toggle">Chat</button>
+  <div id="chat-box" class="hidden">
+    <div id="chat-header">Auralis Assistant</div>
+    <div id="chat-messages"></div>
+    <form id="chat-form">
+      <input type="text" id="user-input" placeholder="Ask me anything..." autocomplete="off" />
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</div>
+<div id="chat-welcome">Need help? Ask the Auralis Assistant!</div>
+<script src="script.js"></script>
+<button id="toggle-dark-float" title="Toggle Dark Mode">Dark</button>
+</body>
+</html>
